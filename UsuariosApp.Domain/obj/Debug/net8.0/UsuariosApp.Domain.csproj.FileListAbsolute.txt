@@ -1,0 +1,12 @@
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\bin\Debug\net8.0\UsuariosApp.Domain.deps.json
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\bin\Debug\net8.0\UsuariosApp.Domain.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\bin\Debug\net8.0\UsuariosApp.Domain.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.AssemblyInfoInputs.cache
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.AssemblyInfo.cs
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.csproj.CoreCompileInputs.cache
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\refint\UsuariosApp.Domain.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\ref\UsuariosApp.Domain.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Domain\obj\Debug\net8.0\UsuariosApp.Domain.csproj.AssemblyReference.cache
