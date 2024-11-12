@@ -1,5 +1,6 @@
 {
   "UsuariosApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.API",
   "UsuariosApp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Domain",
-  "UsuariosApp.Infra.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Infra.Data"
+  "UsuariosApp.Infra.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Infra.Data",
+  "UsuariosApp.Infra.Security, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Infra.Security"
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\ws-CSharp\\UsuariosApp.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FEDAD69A-2513-4EE2-A593-5CD16799022A}|UsuariosApp.API\\UsuariosApp.API.csproj|c:\\ws-csharp\\usuariosapp.api\\usuariosapp.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDAD69A-2513-4EE2-A593-5CD16799022A}|UsuariosApp.API\\UsuariosApp.API.csproj|solutionrelative:usuariosapp.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{089680C6-4B61-4442-9787-80758538090F}|UsuariosApp.Tests\\UsuariosApp.Tests.csproj|c:\\ws-csharp\\usuariosapp.api\\usuariosapp.tests\\criarusuariotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{089680C6-4B61-4442-9787-80758538090F}|UsuariosApp.Tests\\UsuariosApp.Tests.csproj|solutionrelative:usuariosapp.tests\\criarusuariotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{089680C6-4B61-4442-9787-80758538090F}|UsuariosApp.Tests\\UsuariosApp.Tests.csproj|c:\\ws-csharp\\usuariosapp.api\\usuariosapp.tests\\autenticarusuariotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{089680C6-4B61-4442-9787-80758538090F}|UsuariosApp.Tests\\UsuariosApp.Tests.csproj|solutionrelative:usuariosapp.tests\\autenticarusuariotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEDAD69A-2513-4EE2-A593-5CD16799022A}|UsuariosApp.API\\UsuariosApp.API.csproj|c:\\ws-csharp\\usuariosapp.api\\usuariosapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEDAD69A-2513-4EE2-A593-5CD16799022A}|UsuariosApp.API\\UsuariosApp.API.csproj|solutionrelative:usuariosapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 817,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 684,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,52 +31,52 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 220,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "UsuariosApp.API\\Program.cs",
-              "ToolTip": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.API\\Program.cs",
-              "RelativeToolTip": "UsuariosApp.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T01:55:45.644Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CriarUsuarioTest.cs",
-              "DocumentMoniker": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\CriarUsuarioTest.cs",
-              "RelativeDocumentMoniker": "UsuariosApp.Tests\\CriarUsuarioTest.cs",
-              "ToolTip": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\CriarUsuarioTest.cs",
-              "RelativeToolTip": "UsuariosApp.Tests\\CriarUsuarioTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "UsuariosApp.API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T01:51:11.932Z",
+              "WhenOpened": "2024-11-12T12:54:42.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CriarUsuarioTest.cs",
+              "DocumentMoniker": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\CriarUsuarioTest.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Tests\\CriarUsuarioTest.cs",
+              "ToolTip": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\CriarUsuarioTest.cs",
+              "RelativeToolTip": "UsuariosApp.Tests\\CriarUsuarioTest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:08:27.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AutenticarUsuarioTest.cs",
               "DocumentMoniker": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\AutenticarUsuarioTest.cs",
               "RelativeDocumentMoniker": "UsuariosApp.Tests\\AutenticarUsuarioTest.cs",
               "ToolTip": "C:\\ws-CSharp\\UsuariosApp.API\\UsuariosApp.Tests\\AutenticarUsuarioTest.cs",
               "RelativeToolTip": "UsuariosApp.Tests\\AutenticarUsuarioTest.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAMwBEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T01:53:08.158Z",
+              "WhenOpened": "2024-11-12T12:08:03.25Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedHeight": 803,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"

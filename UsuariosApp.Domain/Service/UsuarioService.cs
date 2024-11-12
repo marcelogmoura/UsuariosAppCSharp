@@ -9,6 +9,7 @@ using UsuariosApp.Domain.Dtos;
 using UsuariosApp.Domain.Entities;
 using UsuariosApp.Domain.Helpers;
 using UsuariosApp.Domain.Interfaces.Repositories;
+using UsuariosApp.Domain.Interfaces.Security;
 using UsuariosApp.Domain.Interfaces.Services;
 using UsuariosApp.Domain.Validations;
 
@@ -18,11 +19,37 @@ namespace UsuariosApp.Domain.Service
     {
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly IPerfilRepository _perfilRepository;
+        private readonly IJwtTokenService _jwtTokenService;
 
-        public UsuarioService(IUsuarioRepository usuarioRepository, IPerfilRepository perfilRepository)
+        public UsuarioService(IUsuarioRepository usuarioRepository, IPerfilRepository perfilRepository, IJwtTokenService jwtTokenService)
         {
             _usuarioRepository = usuarioRepository;
             _perfilRepository = perfilRepository;
+            _jwtTokenService = jwtTokenService;
+        }
+
+        public AutenticarUsuarioResponseDto AutenticarUsuario(AutenticarUsuarioRequestDto dto)
+        {
+            var usuario = _usuarioRepository.Find(dto.Email, SHA256Helper.Encrypt(dto.Senha));
+
+            if (usuario == null)
+                throw new ApplicationException("usuario/email invalido");
+
+            return new AutenticarUsuarioResponseDto
+            {
+                Id = usuario.Id,
+                Email = usuario.Email,
+                Nome = usuario.Nome,
+                DataHoraAcesso = DateTime.Now,
+                DataHoraExpiracao = _jwtTokenService.GenerateExpirationDate(),
+                AccessToken = _jwtTokenService.GenerateToken(usuario),
+                Perfil = new PerfilResponseDto
+                {
+                    Id = usuario.Perfil.Id,
+                    Name = usuario.Perfil.Nome
+                }
+
+            };
         }
 
         public CriarUsuarioResponseDto CriarUsuario(CriarUsuarioRequestDto dto)

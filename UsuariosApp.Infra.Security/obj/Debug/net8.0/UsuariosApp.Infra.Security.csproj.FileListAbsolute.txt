@@ -1,0 +1,16 @@
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\bin\Debug\net8.0\UsuariosApp.Infra.Security.deps.json
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\bin\Debug\net8.0\UsuariosApp.Infra.Security.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\bin\Debug\net8.0\UsuariosApp.Infra.Security.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\bin\Debug\net8.0\UsuariosApp.Domain.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\bin\Debug\net8.0\UsuariosApp.Domain.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.csproj.AssemblyReference.cache
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.AssemblyInfoInputs.cache
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.AssemblyInfo.cs
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.csproj.CoreCompileInputs.cache
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.sourcelink.json
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\Usuarios.26A183C5.Up2Date
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\refint\UsuariosApp.Infra.Security.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\UsuariosApp.Infra.Security.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Security\obj\Debug\net8.0\ref\UsuariosApp.Infra.Security.dll

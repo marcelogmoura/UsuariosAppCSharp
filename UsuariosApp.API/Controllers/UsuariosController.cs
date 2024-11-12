@@ -31,7 +31,7 @@ namespace UsuariosApp.API.Controllers
             }
             catch (ApplicationException e)
             {
-                return StatusCode(402 , new { e.Message });
+                return StatusCode(422 , new { e.Message });
             }
             catch (Exception e)
             {
@@ -40,9 +40,21 @@ namespace UsuariosApp.API.Controllers
         }
 
         [HttpPost("autenticar")]
-        public IActionResult Autenticar()
+        [ProducesResponseType(typeof(AutenticarUsuarioResponseDto), 200)]
+        public IActionResult Autenticar([FromBody] AutenticarUsuarioRequestDto dto)
         {
-            return Ok();
+            try
+            {
+                return StatusCode(200, _usuarioService.AutenticarUsuario(dto));
+            }
+            catch (ApplicationException e)
+            {
+                return StatusCode(401, new { e.Message });
+            }
+            catch (Exception e)
+            {
+                return StatusCode(401, new { e.Message });
+            }
         } 
     }
 }

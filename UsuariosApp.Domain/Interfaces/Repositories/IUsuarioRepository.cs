@@ -11,5 +11,7 @@ namespace UsuariosApp.Domain.Interfaces.Repositories
     {
         void Add(Usuario usuario);
         bool Verify(string email);
+
+        Usuario Find(string email, string senha);
     }
 }

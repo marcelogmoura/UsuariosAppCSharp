@@ -15,3 +15,4 @@ C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Data\obj\Debug\net8.0\refint\Usua
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Data\obj\Debug\net8.0\UsuariosApp.Infra.Data.pdb
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Data\obj\Debug\net8.0\UsuariosApp.Infra.Data.genruntimeconfig.cache
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Data\obj\Debug\net8.0\ref\UsuariosApp.Infra.Data.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.Infra.Data\obj\Debug\net8.0\UsuariosApp.Infra.Data.sourcelink.json

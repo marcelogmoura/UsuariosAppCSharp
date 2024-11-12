@@ -80,3 +80,7 @@ C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Domain
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Infra.Data.dll
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Domain.pdb
 C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Infra.Data.pdb
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\obj\Debug\net8.0\UsuariosApp.API.sourcelink.json
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Infra.Security.dll
+C:\ws-CSharp\UsuariosApp.API\UsuariosApp.API\bin\Debug\net8.0\UsuariosApp.Infra.Security.pdb

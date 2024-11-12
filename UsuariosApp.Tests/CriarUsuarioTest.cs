@@ -37,9 +37,36 @@ namespace UsuariosApp.Tests
             response.StatusCode.Should().Be(HttpStatusCode.Created);
         }
 
-        [Fact(Skip = "nao implementado")]
+        [Fact]
         public async Task Nao_Permitir_Email_Duplicado_Test()
         {
+            var faker = new Faker("pt_BR");
+
+            var request = new CriarUsuarioRequestDto
+            {
+                Nome = faker.Person.FullName,
+                Email = faker.Internet.Email(),
+                Senha = "Admin@123"
+            };
+
+            var json = new StringContent
+                (JsonConvert.SerializeObject(request), 
+                    Encoding.UTF8, "application/json");
+
+            var client = new WebApplicationFactory
+                <Program>().CreateClient();
+
+            await client.PostAsync("/api/usuarios/criar", json);
+
+            var response = await client.PostAsync
+                   ("/api/usuarios/criar", json);
+
+            response.StatusCode
+                .Should().Be(HttpStatusCode.UnprocessableContent);
+
+            var mensagem = await response.Content.ReadAsStringAsync();
+
+            mensagem.Should().Contain("email atualmente em uso");
 
         }
 
